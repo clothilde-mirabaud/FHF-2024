@@ -1,0 +1,38 @@
+.container{
+	width : 700px;
+	margin : 10px auto;
+	font-weight : bold;
+}
+
+.subcontainer{
+	width : 800px;
+	margin : 50px auto;
+	box-shadow : 0px 10px 30px rgba(0,0,0, 0.5);
+	border-radius : 8px;
+	align-content : center;
+	padding : 20px;
+	font-weight : bold;
+	color : #00337C;
+}
+
+.subcontainer img{
+	width : 600px;
+	border-radius : 8px;
+}
+
+.video-container{
+	display : flex;
+	justify-content : space-around;
+	width : 800px;
+	margin : 60px auto;
+	border-radius : 8px;
+	align-content : center;
+}
+
+video {
+	padding : 20px;
+}
+
+.video-container p{
+	padding : 60px
+}

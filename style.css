@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald&family=Poppins:wght@200&display=swap');
+
+@import url("css/components/container.css");
+@import url("css/components/avatar.css");
+@import url("css/components/btn-blue.css");
+@import url("css/components/banner.css");
+@import url("css/components/card.css");
+
+
+h1,h2,h3 {
+	font-family: 'Bebas Neue', sans-serif;
+	text-transform :uppercase;
+	text-align : center;
+}
+
+h1 {color : #13005A}
+
+body {
+	    font-family: 'Poppins', sans-serif;
+	    text-align : center;
+	    margin: 0 ;
+	    background-color : rgb(220, 220,220);
+}
+
+a{
+	text-decoration : none;
+}
+
+a:hover{color : green;}
+
+
+.list-inline{
+	list-style: none;
+	padding-left : none;
+	padding-right : 40px;
+}
+.list-inline i{
+	font-size : 30px ;
+ ;
+}
+@media (max-width:500px){
+	.container{width : 200px}
+	.subcontainer{width : 200px}
+}
+
+
+@media (max-width:600px){
+	.container{width : 400px}
+	.subcontainer{width : 400px}
+}
+
+#apply-section {
+	margin-bottom : 20px;
+}
